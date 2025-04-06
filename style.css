@@ -45,3 +45,18 @@ button:hover{
     cursor: pointer;
     border-radius: 5px;
 }
+
+img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media(max-width: 600px){
+    h1{
+        font-size: 4rem;
+    }
+    button{
+        font-size: 1.2rem;
+    }
+}
