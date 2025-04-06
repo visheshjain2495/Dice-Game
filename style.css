@@ -10,12 +10,38 @@ h1{
     font-family: "Underdog", system-ui;
     font-weight: 700;
     font-style: normal;
-    font-size: 10rem;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
     display: flex;
     justify-content: center;
 }
 
-h3, button{
+button{
+    background-color: #00adb5;
+    color: #393e46;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.play-again{
     display: flex;
     justify-content: center;
+}
+
+button:hover{
+    background-color:#4ecca3 ;
+    color: #393e46;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
 }
