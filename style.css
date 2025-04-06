@@ -59,4 +59,13 @@ img{
     button{
         font-size: 1.2rem;
     }
+    img{
+        width: 150px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+    img{
+        width: 200px;
+    }
 }
